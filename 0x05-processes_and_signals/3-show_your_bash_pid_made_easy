@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+# dislay bash process id
+pgrep -l bash
