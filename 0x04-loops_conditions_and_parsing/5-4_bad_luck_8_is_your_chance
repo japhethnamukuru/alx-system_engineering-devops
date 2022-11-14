@@ -1,0 +1,16 @@
+#!/usr/bin/env bash
+# display a message as per the given iteration
+i=1
+while [ $i -le 10 ]
+do
+	if [ $i = 4 ]
+	then
+		echo "bad lack"
+	elif [ $i = 8 ]
+	then
+		echo "good luck"
+	else
+		echo "Best School"
+	fi
+	(( i++ ))
+done
